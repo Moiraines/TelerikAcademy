@@ -1,0 +1,116 @@
+﻿body {
+    font-family: Calibri;
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    background-color: #3B3B3B;
+    width: 660px;
+    height: 310px;
+    border: ridge 1px #806850;
+    border-radius: 10px;
+}
+
+#container header {
+    background: rgb(59,59,59); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(59,59,59,1) 0, rgba(58,58,58,1) 20%, rgba(60,60,60,1) 25%, rgba(56,56,56,1) 35%, rgba(59,59,59,1) 37%, rgba(57,57,57,1) 38%, rgba(60,60,60,1) 40%, rgba(56,56,56,1) 42%, rgba(57,57,57,1) 45%, rgba(61,61,61,1) 46%, rgba(57,57,57,1) 48%, rgba(58,58,58,1) 49%, rgba(54,54,54,1) 52%, rgba(58,58,58,1) 54%, rgba(49,49,49,1) 89%, rgba(46,46,46,1) 94%, rgba(37,37,37,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(59,59,59,1)), color-stop(20%,rgba(58,58,58,1)), color-stop(25%,rgba(60,60,60,1)), color-stop(35%,rgba(56,56,56,1)), color-stop(37%,rgba(59,59,59,1)), color-stop(38%,rgba(57,57,57,1)), color-stop(40%,rgba(60,60,60,1)), color-stop(42%,rgba(56,56,56,1)), color-stop(45%,rgba(57,57,57,1)), color-stop(46%,rgba(61,61,61,1)), color-stop(48%,rgba(57,57,57,1)), color-stop(49%,rgba(58,58,58,1)), color-stop(52%,rgba(54,54,54,1)), color-stop(54%,rgba(58,58,58,1)), color-stop(89%,rgba(49,49,49,1)), color-stop(94%,rgba(46,46,46,1)), color-stop(100%,rgba(37,37,37,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(59,59,59,1) 0,rgba(58,58,58,1) 20%,rgba(60,60,60,1) 25%,rgba(56,56,56,1) 35%,rgba(59,59,59,1) 37%,rgba(57,57,57,1) 38%,rgba(60,60,60,1) 40%,rgba(56,56,56,1) 42%,rgba(57,57,57,1) 45%,rgba(61,61,61,1) 46%,rgba(57,57,57,1) 48%,rgba(58,58,58,1) 49%,rgba(54,54,54,1) 52%,rgba(58,58,58,1) 54%,rgba(49,49,49,1) 89%,rgba(46,46,46,1) 94%,rgba(37,37,37,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(59,59,59,1) 0,rgba(58,58,58,1) 20%,rgba(60,60,60,1) 25%,rgba(56,56,56,1) 35%,rgba(59,59,59,1) 37%,rgba(57,57,57,1) 38%,rgba(60,60,60,1) 40%,rgba(56,56,56,1) 42%,rgba(57,57,57,1) 45%,rgba(61,61,61,1) 46%,rgba(57,57,57,1) 48%,rgba(58,58,58,1) 49%,rgba(54,54,54,1) 52%,rgba(58,58,58,1) 54%,rgba(49,49,49,1) 89%,rgba(46,46,46,1) 94%,rgba(37,37,37,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(59,59,59,1) 0,rgba(58,58,58,1) 20%,rgba(60,60,60,1) 25%,rgba(56,56,56,1) 35%,rgba(59,59,59,1) 37%,rgba(57,57,57,1) 38%,rgba(60,60,60,1) 40%,rgba(56,56,56,1) 42%,rgba(57,57,57,1) 45%,rgba(61,61,61,1) 46%,rgba(57,57,57,1) 48%,rgba(58,58,58,1) 49%,rgba(54,54,54,1) 52%,rgba(58,58,58,1) 54%,rgba(49,49,49,1) 89%,rgba(46,46,46,1) 94%,rgba(37,37,37,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(59,59,59,1) 0,rgba(58,58,58,1) 20%,rgba(60,60,60,1) 25%,rgba(56,56,56,1) 35%,rgba(59,59,59,1) 37%,rgba(57,57,57,1) 38%,rgba(60,60,60,1) 40%,rgba(56,56,56,1) 42%,rgba(57,57,57,1) 45%,rgba(61,61,61,1) 46%,rgba(57,57,57,1) 48%,rgba(58,58,58,1) 49%,rgba(54,54,54,1) 52%,rgba(58,58,58,1) 54%,rgba(49,49,49,1) 89%,rgba(46,46,46,1) 94%,rgba(37,37,37,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b3b3b', endColorstr='#252525',GradientType=0 ); /* IE6-9 */
+    padding-bottom: 5px;
+}
+
+img {
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+
+.login {
+    font-family: Cambria, Serif;
+    font-size: 22px;
+    font-weight:bold;
+    color: white;
+    padding-left: 12px;
+    vertical-align: top;
+    display:inline-block;
+    margin-top: 15px;
+}
+
+form {
+    display:inline-block;
+    margin-top: 18px;
+    margin-left: -5px;
+    vertical-align: top;
+}
+
+input[type="text"] {
+    margin-left: 20px;
+    padding-left: 10px;
+    width: 135px;
+    vertical-align: top
+}
+
+
+input[type="submit"] {
+    background-image: url('../images/bg2.png');
+    background-position: -5px -12px;
+    background-size: 66px 52px;
+    width: 56px;
+    height: 28px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 22px;
+    top: -3px;
+    border-radius: 12px;
+    border: none;
+}
+
+::-webkit-input-placeholder { 
+    color:#000; 
+}
+
+::-moz-placeholder { 
+    color:#000; 
+}
+
+:-ms-input-placeholder { 
+    color:#000; 
+} 
+
+input:-moz-placeholder { 
+    color:#000; 
+}
+
+article{
+    padding-left: 10px;
+    padding-right: 65px;
+    padding-bottom: 0;
+}
+
+h1{
+    font-family: Cambria, Serif;
+    color: #FCD61B;
+    font-weight: normal;
+    font-size: 1.8em;
+    position: relative;
+    top: -8px;
+}
+
+p{
+    color:#9D9D9D
+}
+
+a{
+    text-decoration: none;
+    color: #e6dcad;
+}
+
+p {
+    margin-top: -15px;
+}

@@ -1,0 +1,48 @@
+﻿body {
+    background-color: #595959;
+    font-size: 11px;
+    font-family: Arial;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+
+h1, .grey{
+    color: #adaaaa;
+    font-weight: normal;
+}
+
+h1{
+    font-size: 1.5em;
+    padding-bottom: -2px;
+}
+
+.left{
+    color: #ededed;
+    font-style: italic;
+    padding-left: 0;
+}
+
+.orange{
+    color: rgb(186, 119, 0);
+    font-weight: bold;
+}
+
+.yellow{
+    color: #fff6c6;
+}
+
+.red{
+    color: #ff0000;
+}
+
+#special::before{
+    content:url('../images/dot.png')
+    
+}
+
+tr, td{
+    border-color: #595959;
+    border-style: solid;
+    padding: 3.5px;
+}

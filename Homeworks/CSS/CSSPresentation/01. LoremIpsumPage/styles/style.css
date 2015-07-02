@@ -1,0 +1,22 @@
+﻿@font-face {
+	font-family: edwardian-script-itc-1361504162;
+	src: url('edwardian-script-itc-1361504162.ttf') format('truetype');
+}
+
+p {
+    color: #0094ff;
+    font-family: Consolas;
+}
+
+@font-face {
+    font-family: edwardian-script-itc-1361504162;
+}
+
+p:first-line {
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-family: edwardian-script-itc-1361504162;
+    font-size: 2.4em;
+}

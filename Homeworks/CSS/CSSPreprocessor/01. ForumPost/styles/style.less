@@ -1,0 +1,272 @@
+﻿@defColor: #fff;
+@defFont: 14px normal Arial;
+@defBorder: 3px solid #4c0b7f;
+@defBorRad: 15px;
+@defListStyle: none;
+@defDecoration: none;
+@buttonBorRad: 10px;
+@buttonBgColor: #b35ef3;
+@grColor1: #c3a0ec;
+@grColor2: #c58af2;
+@grColor3: #a439f4;
+@defBgColor: #9215f2;
+
+.linear-gradient(@grColor1, @pos1, @grColor2, @pos2, @grColor3, @pos3, @defBgColor, @pos4) {
+    background: @defBgColor; /* Old browsers */
+    background: -moz-linear-gradient(top, @grColor1 @pos1, @grColor2 @pos2, @grColor3 @pos3, @defBgColor @pos4); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@pos1, @grColor1), color-stop(@pos2,@grColor2), color-stop(@pos3,@grColor3), color-stop(@pos4,@defBgColor)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @grColor1 @pos1,@grColor2 @pos2,@grColor3 @pos3,@defBgColor @pos4); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @grColor1 @pos1,@grColor2 @pos2,@grColor3 @pos3,@defBgColor @pos4); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @grColor1 @pos1,@grColor2 @pos2,@grColor3 @pos3,@defBgColor @pos4); /* IE10+ */
+    background: linear-gradient(to bottom, @grColor1 @pos1,@grColor2 @pos2,@grColor3 @pos3,@defBgColor @pos4); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@grColor1', endColorstr='@defBgColor',GradientType=0 ); /* IE6-9 */
+}
+
+body, header, section, footer, article, h1, h2, h3, h4, h5, h6, input, button, label, p, fieldset, nav, ul, li, a, span, strong, em {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+div, h1, h3, h4, h5, h6, header, footer, body, section, nav, article, aside {
+    display: block;
+}
+
+body {
+    height: 1000px;
+    font: @defFont;
+    color: @defColor;
+    .linear-gradient(@grColor1, 0, @grColor2, 5%, @grColor3, 15%, @defBgColor, 25%);
+
+    header {
+        padding: 25px 15px 5px;
+
+        div#header-container {
+
+            div#logo-container {
+                float: left;
+                position: relative;
+            }
+
+            div#reg-form-container {
+                float: right;
+                position: relative;
+                right: 5%;
+                top: 50%;
+
+                div {
+                    text-align: right;
+
+                    label {
+                        width: 50px;
+                        margin: 5px;
+                    }
+
+                    input {
+                        width: 130px;
+                        border: 2px solid #603382;
+                        border-radius: @buttonBorRad;
+                        padding: 2px 5px;
+                        margin: 5px;
+                        background-color: @buttonBgColor;
+                    }
+                }
+
+                button {
+                    width: 85px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    font-weight: bold;
+                    border: 2px solid #8736c4;
+                    border-top-color: #bb90dc;
+                    border-left-color: #bb90dc;
+                    border-style: outset;
+                    border-radius: @buttonBorRad;
+                    padding: 5px 5px 3px;
+                    color: @defColor;
+                    background-color: @buttonBgColor;
+
+                    &:hover {
+                        background-color: #8949b9;
+                        border-style: inset;
+                    }
+                }
+            }
+        }
+
+        nav {
+            display: inline-block;
+            width: 75%;
+            margin: 20px;
+            padding: 12px;
+            border: @defBorder;
+            border-radius: @defBorRad;
+
+            ul.nav-list {
+                list-style-type: @defListStyle;
+            }
+
+            ul li {
+                float: left;
+                margin: 0;
+
+                a {
+                    text-decoration: @defDecoration;
+                    padding: 0 10px;
+                    color: @defColor;
+                    font: @defFont;
+                    font-size: 1.4em;
+
+                    &.selected {
+                        font-weight: bold;
+                    }
+                }
+
+                &:hover > a {
+                    text-decoration: underline;
+                    color: #a8a8a8;
+
+                    & + ul {
+                        display: block;
+                    }
+                }
+
+                ul.sub-nav-list {
+                    position: absolute;
+                    display: none;
+                    background-color: rgba(179, 94, 243, 0.9);
+                    border-radius: 5px;
+                }
+
+                ul li {
+                    float: none;
+                    margin: 0 15px;
+                    padding: 10px 0;
+                    border-bottom: 1px solid black;
+
+                    &:last-of-type {
+                        border-bottom: none;
+                    }
+
+                    & > a {
+                        font-size: 1.2em;
+                        color: @defColor;
+                    }
+                }
+            }
+        }
+    }
+
+    section {
+        width: 75%;
+        float: left;
+        color: @defColor;
+
+        article {
+            margin: 20px;
+            padding: 20px;
+            border: @defBorder;
+            border-radius: @defBorRad;
+
+            header {
+                background: none;
+                padding: 5px;
+
+                h2 {
+                    font-size: 1.4em;
+                    padding: 0;
+                }
+            }
+
+            footer {
+                padding: 5px;
+
+                p {
+                    font-size: 16px;
+                    text-align: right;
+                    font-weight: normal;
+
+                    time {
+                        font-family: Consolas, 'Lucida Console', 'DejaVu Sans Mono', monospace;
+                    }
+
+                    a {
+                        color: #cc88fb;
+                        text-decoration: @defDecoration;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    aside {
+        float: left;
+        width: 20%;
+        margin: 20px;
+
+        & > ul {
+            list-style-type: @defListStyle;
+
+            & > li {
+                margin: 15px 0;
+                padding: 15px;
+                border: @defBorder;
+                border-radius: 5px;
+
+                h2 {
+                    font-size: 1.1em;
+                    font-weight: bold;
+                }
+
+                p {
+                    margin: 10px 5px;
+                    font-size: 14px;
+
+                    a {
+                        color: #aaa;
+                        text-decoration: @defDecoration;
+                    }
+
+                    strong {
+                        color: #ccc;
+                        font-weight: bold;
+                        font-style: normal;
+                    }
+
+                    em {
+                        color: #ccc;
+                        font-weight: normal;
+                        font-style: italic;
+                    }
+                }
+
+                ul {
+                    list-style-type: none;
+                    margin: 10px 0;
+
+                    li {
+                        margin: 5px 0 0 10px;
+                        background: url(images/li-dot.png) no-repeat;
+                        background-position: 0 50%;
+                        padding-left: 25px;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        clear: both;
+        padding: 15px 0 25px;
+
+        p {
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+}

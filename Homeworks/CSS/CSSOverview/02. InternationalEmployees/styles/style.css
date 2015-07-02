@@ -1,0 +1,57 @@
+﻿body, th {
+    font-size: 11px;
+    font-family: Arial;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    width:455px;
+    border-spacing:0;
+    border-collapse:collapse;
+    border:1px solid #aca0a0;
+}
+
+img {
+    vertical-align: top;
+}
+
+tr:nth-child(2n){
+    background-color: #ECECD8
+}
+
+th {
+    padding: 4px;
+    background-color: #56B906;
+    color: #FCFEFB;
+    text-align:left;
+    border-bottom:1px solid #aca0a0;
+    border-right:1px solid #aca0a0;
+}
+
+td {
+    padding: 4px;
+    border-right:1px ridge #aca0a0;
+}
+
+td:last-child {
+    border-right: none;
+}
+
+.name {
+    width:125px;
+}
+
+.city {
+    width: 100px;
+}
+
+.country {
+    width: 120px;
+}
+
+.checkbox {
+    box-shadow: 1px 1px 2px #555 inset;
+    background-color: #555;
+}
