@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. BoolToStringPrinterClassInCSharp", "01. class_123 in CSharp\01. BoolToStringPrinterClassInCSharp.csproj", "{710333F2-4223-4AEA-8CEC-11ACF686B956}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. PersonFactory", "02. Make_Чуек in CSharp\02. PersonFactory.csproj", "{166682CB-5D40-4D77-893D-1140D2B14370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. BrowserChecker", "03. _ClickON_TheButton in JavaScript\03. BrowserChecker.csproj", "{0D9295C8-3C4B-4497-B5BC-A5C59EE3F563}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Re-factorAndImproveTheCode", "04. Re-factor and improve the code\04. Re-factorAndImproveTheCode.csproj", "{DBE23C07-8874-437E-A96D-3C4104E3EC48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{710333F2-4223-4AEA-8CEC-11ACF686B956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{710333F2-4223-4AEA-8CEC-11ACF686B956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{710333F2-4223-4AEA-8CEC-11ACF686B956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{710333F2-4223-4AEA-8CEC-11ACF686B956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166682CB-5D40-4D77-893D-1140D2B14370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166682CB-5D40-4D77-893D-1140D2B14370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166682CB-5D40-4D77-893D-1140D2B14370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166682CB-5D40-4D77-893D-1140D2B14370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D9295C8-3C4B-4497-B5BC-A5C59EE3F563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9295C8-3C4B-4497-B5BC-A5C59EE3F563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9295C8-3C4B-4497-B5BC-A5C59EE3F563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9295C8-3C4B-4497-B5BC-A5C59EE3F563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE23C07-8874-437E-A96D-3C4104E3EC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE23C07-8874-437E-A96D-3C4104E3EC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE23C07-8874-437E-A96D-3C4104E3EC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE23C07-8874-437E-A96D-3C4104E3EC48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

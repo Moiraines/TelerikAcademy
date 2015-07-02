@@ -1,0 +1,9 @@
+﻿{
+  "output": "Warning",
+  "ignore": [],
+  "options": {
+    "predef": {},
+    "browser": true,
+    "node": true
+  }
+}
