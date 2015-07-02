@@ -1,0 +1,73 @@
+﻿body {
+    font-family: Corbel,sans-serif;
+    font-size: 28px;
+    font-weight:500;
+}
+
+form{
+    font-size: 1.2em;
+}
+
+a{
+    color: #38c0f3;
+    font-weight: bold;
+}
+
+#container {
+    width: 735px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#maintable{
+    border:solid;
+    border-radius:10px;
+}
+
+.bordered{
+    border-collapse:collapse;
+    border:solid;
+    padding: 0;
+}
+
+fieldset{
+    display:table;
+    border-collapse:collapse;
+    border:solid;
+    margin:10px;
+}
+
+input {
+    width: 85%;
+    margin-left: 10px;
+}
+
+#aside, h3{
+    text-align: center;
+}
+
+#gb{
+    vertical-align:bottom;
+}
+
+#price, legend{
+    text-align:center;
+}
+
+#wrapper{
+    display: table;
+    /*padding: 15px;*/
+    margin: 10px;
+}
+
+#navtable{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+

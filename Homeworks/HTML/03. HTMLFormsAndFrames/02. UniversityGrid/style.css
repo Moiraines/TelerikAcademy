@@ -1,0 +1,7 @@
+﻿table {
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 2px ridge #bbb;
+}

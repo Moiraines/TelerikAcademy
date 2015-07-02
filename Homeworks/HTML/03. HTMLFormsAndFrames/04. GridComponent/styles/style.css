@@ -1,0 +1,146 @@
+﻿body {
+    font-family: Arial;
+    font-size: 12px;
+    color: #444;
+}
+
+.gradient{
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0,#f8f9f9), color-stop(45%,#e7e9eb)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f8f9f9 0,#e7e9eb 45%); /* Chrome10+,Safari5.1+ */
+    background: -moz-linear-gradient(top, #f8f9f9 0, #e7e9eb 45%); /* FF3.6+ */
+    background: -ms-linear-gradient(top, #f8f9f9 0,#e7e9eb 45%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f9f9', endColorstr='#e7e9eb',GradientType=0 ); /* IE6-9 */
+}
+
+tr:first-child > td{
+    border:1px solid #9ea5ac;
+}
+
+tr:last-child > td {
+    border-top: none;
+    border-left: 1px solid #9ea5ac;
+    border-right: 1px solid #9ea5ac;
+    border-bottom: 1px solid #9ea5ac;
+}
+
+td{
+	border-top: none;
+	border-left: 1px solid #9ea5ac;
+	border-right: none;
+	border-bottom: 1px solid #9ea5ac;
+	padding: 5px 7px;
+}
+
+td:last-child{
+	border-right: 1px solid #9ea5ac;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius:5px
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius:5px
+}
+table tr:first-child td:first-child {
+    border-top-left-radius:5px
+}
+
+table tr:first-child td:last-child {
+    border-top-right-radius:5px
+}
+
+button{
+	width: 19px;
+	height: 19px;
+	border: 1px solid #bbb;
+    border-radius: 3px;
+	background-size: 19px 19px;
+}
+
+#first{
+	background-image: url("../images/btn_background_first.jpg");
+}
+
+#previous{
+	background-image: url("../images/btn_background_prev.jpg");
+}
+#next{
+	background-image: url("../images/btn_background_next.jpg");
+}
+#last{
+	background-image: url("../images/btn_background_last.jpg");
+}
+#sort{
+	background-image: url("../images/btn_background_1.jpg");	
+	position: relative;
+	top: 3px;
+	left: 2px;
+}
+
+a{
+	position: relative;
+	top: -2px;
+	padding: 3px 2px;
+    color: #444;
+    text-decoration: none;
+}
+
+a:first-of-type{
+	border: 1px solid #ff5600;
+	border-radius: 5px;
+	padding: 3px 4px;
+}
+
+input{
+	display: inline-block;
+}
+
+#product-id{
+	width: 30px;
+}
+
+#product-name{
+	width: 140px;
+}
+
+#unit-price{
+	width: 75px;
+}
+
+#quantity{
+	width: 90px;
+}
+
+#quantity-per-unit{
+	width: 150px;
+}
+
+#unit-price-td{
+	width: 150px;
+}
+
+#units{
+	width: 162px;
+}
+
+#units-in-stock{
+	width: 75px;
+}
+
+#product-name-td{
+	width: 240px;
+}
+
+select, #bottom-text-left{
+	position: relative;
+	left: 70px;
+	color: #444;
+}
+
+#bottom-text-right{
+	padding: 0;
+	margin: 0;
+	position: relative;
+	left: 370px;
+}
