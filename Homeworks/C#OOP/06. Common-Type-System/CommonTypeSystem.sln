@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-03. StudentClass", "StudentClass\01-03. StudentClass.csproj", "{BD297E3A-1052-43EB-B325-17847861FF9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. PersonClass", "PersonClass\04. PersonClass.csproj", "{6EC7DC1D-91A0-48E2-A806-4987A44EB3F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. 64BitArray", "64BitArray\05. 64BitArray.csproj", "{43E131FE-6033-4F73-B940-F9D18AD90C12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. BinarySearchTree", "BinarySearchTree\06. BinarySearchTree.csproj", "{23E3C30E-7701-407E-85FB-C3C30688942E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD297E3A-1052-43EB-B325-17847861FF9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD297E3A-1052-43EB-B325-17847861FF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD297E3A-1052-43EB-B325-17847861FF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD297E3A-1052-43EB-B325-17847861FF9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EC7DC1D-91A0-48E2-A806-4987A44EB3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EC7DC1D-91A0-48E2-A806-4987A44EB3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EC7DC1D-91A0-48E2-A806-4987A44EB3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EC7DC1D-91A0-48E2-A806-4987A44EB3F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43E131FE-6033-4F73-B940-F9D18AD90C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E131FE-6033-4F73-B940-F9D18AD90C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E131FE-6033-4F73-B940-F9D18AD90C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E131FE-6033-4F73-B940-F9D18AD90C12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23E3C30E-7701-407E-85FB-C3C30688942E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E3C30E-7701-407E-85FB-C3C30688942E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E3C30E-7701-407E-85FB-C3C30688942E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E3C30E-7701-407E-85FB-C3C30688942E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

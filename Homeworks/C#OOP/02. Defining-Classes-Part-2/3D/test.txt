@@ -1,0 +1,5 @@
+Coordinates X = 1.5, Y = 2.5, Z = 3.5
+Coordinates X = -1, Y = -4, Z = 7
+Coordinates X = 1, Y = 2, Z = 3
+Coordinates X = -1, Y = -2, Z = 3
+Coordinates X = 1.25, Y = 2.375, Z = 3.8
