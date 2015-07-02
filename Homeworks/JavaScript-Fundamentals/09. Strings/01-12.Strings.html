@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>JavaScript literals</title>
+    <link href="styles/style.css" rel="stylesheet" />
+</head>
+<body>
+<div id="wrapper">
+    <div class="problem">
+        <h1>Problem 1. Reverse string</h1>
+        <ul>
+            <li>Write a JavaScript function that reverses a string and returns it.</li>
+            <i>Examples:</i>
+            <div><b>input&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output</b></div>
+            <div>samples&nbsp;&nbsp;elpmas</div>
+        </ul>
+        <h1>Result:</h1>
+        <p>Check the console.</p>
+    </div>
+    <div class="problem">
+        <h1>Problem 2. Correct brackets</h1>
+        <ul>
+            <li>Write a JavaScript function to check if in a given expression the brackets are put correctly</li>
+            <br/>
+            <div><i>Example of correct expression:</i> ((a+b)/5-d). <i>Example of incorrect expression:</i> )(a+b)).</div>
+        </ul>
+        <h1>Result:</h1>
+        <p>Check the console.</p>
+    </div>
+    <div class="problem">
+        <h1>Problem 3. Sub-string in text</h1>
+        <ul>
+            <li>Write a JavaScript function that finds how many times a substring is contained in a given text (perform case insensitive search).</li>
+            <br/>
+            <i>Examples:</i>
+            <br/>
+            <p>The target sub-string is in</p>
+            <p>The text is as follows: We are liv<b>in</b>g <b>in</b> an yellow submar<b>in</b>e. We don't have anyth<b>in</b>g else. <b>in</b>side the submar<b>in</b>e is very tight. So we are dr<b>in</b>k<b>in</b>g all the day. We will move out of it <b>in</b> 5 days.</p>
+            <p>The result is: 9</p>
+        </ul>
+        <h1>Result:</h1>
+        <p>Check the console.</p>
+    </div>
+    <div class="problem">
+        <h1>Problem 4. Parse tags</h1>
+        <ul>
+            <li>You are given a text. Write a function that changes the text in all regions:</li>
+            <p>&#60;upcase&#62;text&#60;&#47;upcase&#62; to uppercase. <br/>
+                &#60;lowcase&#62;text&#60;&#47;lowcase&#62; to lowercase <br/>
+                &#60;mixcase&#62;text&#60;&#47;mixcase&#62; to mix casing(random) <br/></p>
+            <p></p>
+        </ul>
+        <p>
+            <i>Example:</i> We are &#60;mixcase&#62;living&#60;&#47;mixcase&#62; in a &#60;upcase&#62;yellow submarine&#60;&#47;upcase&#62;. We &#60;mixcase&#62;don't&#60;&#47;mixcase&#62; have &#60;lowcase&#62;anything&#60;&#47;lowcase&#62; else.
+        </p>
+        <p>
+            <i>The expected result:</i><br/>
+            We are LiVinG in a YELLOW SUBMARINE. We dOn'T have anything else.
+        </p>
+        <p><i>Note: Regions can be nested.</i></p>
+        <h1>Result:</h1>
+        <p>Check the console.</p>
+    </div>
+    <div class="problem">
+        <h1>Problem 5.nbsp</h1>
+        <ul>
+            <li>Write a function that replaces non breaking white-spaces in a text with &
+                nbsp;
+            </li>
+        </ul>
+        <h1>Result:</h1>
+        <p>Check the console.</p>
+    </div>
+    <div class="problem">
+        <h1>Problem 6. Extract text from HTML</h1>
+        <ul>
+            <li>Write a function that extracts the content of a html page given as text.</li>
+            <li>The function should return anything that is in a tag, without the tags.</li>
+            <p><i>Result:</i> Sample sitetextmore textand more...in body</p>
+        </ul>
+        <h1>Result:</h1>
+        <p>Check the console.</p>
+    </div>
+    <div class="problem">
+        <h1>Problem 7. Parse URL</h1>
+        <ul>
+            <li>Write a script that parses an URL address given in the format: [protocol]://[server]/[resource] and extracts from it the [protocol], [server] and [resource] elements.</li>
+            <li>Return the elements in a JSON object.</li>
+        </ul>
+        <h1>Result:</h1>
+        <p>Check the console.</p>
+    </div>
+    <div class="problem">
+        <h1>Problem 8. Replace tags</h1>
+        <ul>
+            <li>Write a JavaScript function that replaces in a HTML document given as string all the tags &#60;a href="..."&#62;...&#60;/a&#62; with corresponding tags [URL=...].../URL].</li>
+        </ul>
+        <h1>Result:</h1>
+        <p>Check the console.</p>
+    </div>
+    <div class="problem">
+        <h1>Problem 9. Extract e-mails</h1>
+        <ul>
+            <li>Write a function for extracting all email addresses from given text.</li>
+            <li>All sub-strings that match the format @... should be recognized as emails.</li>
+            <li>Return the emails as array of strings.</li>
+        </ul>
+        <h1>Result:</h1>
+        <p>Check the console.</p>
+    </div>
+    <div class="problem">
+        <h1>Problem 10. Find palindromes</h1>
+        <ul>
+            <li>Write a program that extracts from a given text all palindromes, e.g. "ABBA", "lamal", "exe".</li>
+        </ul>
+        <h1>Result:</h1>
+        <p>Check the console.</p>
+    </div>
+    <div class="problem">
+        <h1>Problem 11. String format</h1>
+        <ul>
+            <li>Write a function that formats a string using placeholders.</li>
+            <li>The function should work with up to 30 placeholders and all types.</li>
+        </ul>
+        <h1>Result:</h1>
+        <p>Check the console.</p>
+    </div>
+    <div class="problem">
+        <h1>Problem 12. Generate list</h1>
+        <ul>
+            <li>Write a function that creates a HTML &#60;ul&#62; using a template for every HTML &#60;li&#62;</li>
+            <li>The source of the list should be an array of elements.</li>
+            <li>Replace all placeholders marked with -{...}- with the value of the corresponding property of the object.</li>
+        </ul>
+        <h1>Result:</h1>
+        <p>Check the console.</p>
+    </div>
+</div>
+<script src="scripts/Problem1.js"></script>
+<script src="scripts/Problem2.js"></script>
+<script src="scripts/Problem3.js"></script>
+<script src="scripts/Problem4.js"></script>
+<script src="scripts/Problem5.js"></script>
+<script src="scripts/Problem6.js"></script>
+<script src="scripts/Problem7.js"></script>
+<script src="scripts/Problem8.js"></script>
+<script src="scripts/Problem9.js"></script>
+<script src="scripts/Problem10.js"></script>
+<script src="scripts/Problem11.js"></script>
+<script src="scripts/Problem12.js"></script>
+</body>
+</html>

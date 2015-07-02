@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>JavaScript literals</title>
+    <link href="styles/style.css" rel="stylesheet" />
+</head>
+<body>
+<div id="wrapper">
+    <div class="problem">
+        <h1>Problem 1. Planar coordinates</h1>
+        <ul>
+            <li>
+                Write functions for working with shapes in standard Planar coordinate system.
+                <ul type="circle" class="circle">
+                    <li><b>Points</b> are represented by coordinates P(X, Y)</li>
+                    <li><b>Lines</b> are represented by two points, marking their beginning and ending L(P1(X1,Y1), P2(X2,Y2))</li>
+                </ul>
+            </li>
+            <li>Calculate the distance between two points.</li>
+            <li>Check if three segment lines can form a triangle.</li>
+        </ul>
+        <h1>Result:</h1>
+        <p>Check the console.</p>
+    </div>
+    <div class="problem">
+        <h1>Problem 2. Remove elements</h1>
+        <ul>
+            <li>Write a function that removes all elements with a given value.</li>
+            <li>Attach it to the array type.</li>
+            <br/>
+            <div>var arr = [1,2,1,4,1,3,4,1,111,3,2,1,'1']</div>
+            <div>arr.remove(1); //arr = [2,4,3,4,111,3,2,'1'];</div>
+        </ul>
+        <h1>Result:</h1>
+        <p>Check the console.</p>
+    </div>
+    <div class="problem">
+        <h1>Problem 3. Deep copy</h1>
+        <ul>
+            <li>Write a function that makes a deep copy of an object.</li>
+            <li>The function should work for both primitive and reference types.</li>
+        </ul>
+        <h1>Result:</h1>
+        <p>Check the console.</p>
+    </div>
+    <div class="problem">
+        <h1>Problem 4. Has property</h1>
+        <ul>
+            <li>Write a function that checks if a given object contains a given property.</li>
+            <div>var obj  =...;</div>
+            <div>var hasProp = hasProperty(obj, 'length');</div>
+        </ul>
+        <h1>Result:</h1>
+        <p>Check the console.</p>
+    </div>
+    <div class="problem">
+        <h1>Problem 5. Youngest person</h1>
+        <ul>
+            <li>Write a function that finds the youngest person in a given array of people and prints his/hers full name</li>
+            <li>Each person has properties firstname, lastname and age.</li>
+            <i>Example:</i>
+            <p>var people = [<br/>
+                &nbsp;&nbsp;&nbsp;{ firstname : 'Gosho', lastname: 'Petrov', age: 32 },<br/>
+                &nbsp;&nbsp;&nbsp;{ firstname : 'Bay', lastname: 'Ivan', age: 81,... ];
+            </p>
+        </ul>
+        <h1>Result:</h1>
+        <p>Check the console.</p>
+    </div>
+    <div class="problem">
+        <h1>Problem 6.</h1>
+        <ul>
+            <li>Write a function that groups an array of people by age, first or last name.</li>
+            <li>The function must return an associative array, with keys - the groups, and values - arrays with people in this groups.</li>
+            <br/>
+            <li>Use function overloading (i.e. just one function)</li>
+            <br/>
+            <i>Example:</i>
+            <br/>
+            <br/>
+            <p>&nbsp;&nbsp;&nbsp;var people = {...};<br/>
+                &nbsp;&nbsp;&nbsp;var groupedByFname = group(people, 'firstname');<br/>
+                &nbsp;&nbsp;&nbsp;var groupedByAge= group(people, 'age');
+            </p>
+        </ul>
+        <h1>Result:</h1>
+        <p>Check the console.</p>
+    </div>
+</div>
+<script src="scripts/Problem1.js"></script>
+<script src="scripts/Problem2.js"></script>
+<script src="scripts/Problem3.js"></script>
+<script src="scripts/Problem4.js"></script>
+<script src="scripts/Problem5.js"></script>
+<script src="scripts/Problem6.js"></script>
+</body>
+</html>
