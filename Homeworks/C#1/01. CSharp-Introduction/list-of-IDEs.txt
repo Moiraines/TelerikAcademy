@@ -1,0 +1,27 @@
+1. Eclipse - In computer programming, Eclipse is an integrated development environment (IDE). It contains a base 
+   workspace and an extensible plug-in system for customizing the environment. Written mostly in Java, Eclipse can 
+   be used to develop applications. By means of various plug-ins, Eclipse may also be used to develop applications 
+   in other programming languages: Ada, ABAP, C, C++, COBOL, Fortran, Haskell, JavaScript, Lasso, Natural, Perl, PHP, 
+   Prolog, Python, R, Ruby (including Ruby on Rails framework), Scala, Clojure, Groovy, Scheme, and Erlang. It can also 
+   be used to develop packages for the software Mathematica. Development environments include the Eclipse Java 
+   development tools (JDT) for Java and Scala, Eclipse CDT for C/C++ and Eclipse PDT for PHP, among others.
+
+2. CodeLite - Open-source, cross platform (Windows, Linux & Mac OS) C/C++ IDE written with wxWidgets and released under 
+   the GPL license. Features context sensitive help, auto-completion, refactoring, and a full debugging GUI. CodeLite 
+   is based on plugins so it can be extended very easily.
+
+3. Xcode - an integrated development environment (IDE) containing a suite of software development tools developed by 
+   Apple for developing software for OS X and iOS. First released in 2003, the latest stable release is version 6.1 
+   and is available via the Mac App Store free of charge for Mac OS X Lion, OS X Mountain Lion, OS X Mavericks and OS X 
+   Yosemite users.
+
+4. SPE (Stani's Python Editor) - a cross-platform integrated development environment (IDE) for the Python programming 
+   language. The IDE is developed and maintained by Stani Michiels. SPE runs on GNU/Linux, Mac OS X and Microsoft 
+   Windows and has syntax highlighting, auto completion, auto indentation, call tips, multiple tabs, syntax checking 
+   and an integrated GUI designer (wxGlade) and debugger (winpdb).[2] It is based on wxPython. Available under the GNU 
+   General Public License, SPE is free software.
+
+5. NetBeans - integrated development environment (IDE) for developing primarily with Java, but also with other languages, 
+   in particular PHP, C/C++, and HTML5.[3] It is also an application platform framework for Java desktop applications 
+   and others. The NetBeans IDE is written in Java and can run on Windows, OS X, Linux, Solaris and other platforms 
+   supporting a compatible JVM.

@@ -254,7 +254,7 @@ module.exports = solve;
 //Example
 var Course = solve();
 var id, jsoop = Object.create(Course);
-jsoop.init(getValidTitle(), [getValidTitle(), getValidTitle()]);
+jsoop.init('JavaScript Fundamentals', ['Lection1', 'Lection2']);
 jsoop.addStudent('Doncho' + ' ' + 'Minkov');
 id = jsoop.addStudent('Nikolay' + ' ' + 'Kostov');
 jsoop.submitHomework(1, 1);
@@ -264,4 +264,3 @@ jsoop.pushExamResults([{StudentID:1,score:3},{StudentID:2, score:5}]);
 
 var result = jsoop.getTopStudents();
 console.log(result);
-
