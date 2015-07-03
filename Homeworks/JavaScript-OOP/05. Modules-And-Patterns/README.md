@@ -1,4 +1,4 @@
-<article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1><a id="user-content-modules-and-patterns" class="anchor" href="#modules-and-patterns" aria-hidden="true"><span class="octicon octicon-link"></span></a>Modules and patterns</h1>
+<h1><a id="user-content-modules-and-patterns" class="anchor" href="#modules-and-patterns" aria-hidden="true"><span class="octicon octicon-link"></span></a>Modules and patterns</h1>
    
 <h1></h1>
 
@@ -93,7 +93,3 @@
 </ul></li>
 </ul></li>
 </ul>
-</article>
-  </div>
-
-</div>
