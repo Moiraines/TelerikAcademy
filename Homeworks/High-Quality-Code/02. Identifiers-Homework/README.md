@@ -1,4 +1,3 @@
-<body>
 <h1>Naming Identifiers Homework</h1>
 
 <h2><a id="user-content-homework" class="anchor" href="#homework" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h2>
@@ -85,7 +84,4 @@
 <ul>
 <li>  Refactor and improve the naming in the C# source project <code>Application1.sln</code>.</li>
 <li>  You are allowed to make other improvements in the code as well (not only naming) as well as to fix bugs.</li>
-</ul>    
-  </body>
-</html>
-
+</ul>
