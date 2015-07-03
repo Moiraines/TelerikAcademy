@@ -1,5 +1,5 @@
 <body>
-<h1><a id="user-content-naming-identifiers-homework" class="anchor" href="#naming-identifiers-homework" aria-hidden="true"><span class="octicon octicon-link"></span></a>Naming Identifiers Homework</h1>
+<h1>Naming Identifiers Homework</h1>
 
 <h2><a id="user-content-homework" class="anchor" href="#homework" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework</h2>
 
