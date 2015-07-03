@@ -1,20 +1,3 @@
-
-
-
-<!DOCTYPE html>
-<html lang="en" class=" is-copy-enabled">
-  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="Content-Language" content="en">
-    <meta name="viewport" content="width=1020">
-    
-    
-    <title>JavaScript-OOP/README.md at master · TelerikAcademy/JavaScript-OOP</title>
-    
-  </head>
-
-
   <body class="logged_in  env-production windows vis-public page-blob">
    
 <h1></h1>
