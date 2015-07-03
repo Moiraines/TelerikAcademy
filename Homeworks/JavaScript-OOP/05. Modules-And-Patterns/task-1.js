@@ -52,7 +52,7 @@ function solve() {
         studentInd = 0,
         cheatInspector = [];
 
-    function createFinalArr() {
+    function createFinalArr(homeworks) {
         var examPartValue,
             homeworkPartValue,
             isSeen,
@@ -74,7 +74,7 @@ function solve() {
 
             for(element of studentsHomework) {
                 if(key.id === element.StudentID) {
-                    homeworkPartValue = 0.25 * element.homeworkCount;
+                    homeworkPartValue = 0.25 * (element.homeworkCount / homeworks);
                     tempObj.TotalScore += homeworkPartValue;
                     break;
                 }
@@ -240,7 +240,7 @@ function solve() {
             }
         },
         getTopStudents: function() {
-            createFinalArr();
+            createFinalArr(this.presentations.length);
             return sortFinalArr().slice(0, 10);
         }
     };
