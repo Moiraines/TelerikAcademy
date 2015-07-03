@@ -1,10 +1,27 @@
 ﻿namespace MethodPrintStatistics
 {
+    using System;
+
     public class MethodPrintStatistics
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             ////Some code...
+        }
+
+        public static void PrintAvg(double number)
+        {
+            throw new NotImplementedException("TO DO");
+        }
+
+        public static void PrintMax(double number)
+        {
+            throw new NotImplementedException("TO DO");
+        }
+
+        public static void PrintMin(double number)
+        {
+            throw new NotImplementedException("TO DO");
         }
 
         /// <summary>
