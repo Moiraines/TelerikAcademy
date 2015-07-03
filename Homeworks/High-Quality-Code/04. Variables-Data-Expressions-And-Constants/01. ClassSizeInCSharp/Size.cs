@@ -22,7 +22,7 @@
 
             private set 
             {
-                if (value < 1)
+                if (value <= 0)
                 {
                     throw new ArgumentException("Width have to be a positive double value");
                 }
@@ -40,7 +40,7 @@
 
             private set
             {
-                if (value < 1)
+                if (value <= 0)
                 {
                     throw new ArgumentException("Width have to be a positive double value");
                 }
