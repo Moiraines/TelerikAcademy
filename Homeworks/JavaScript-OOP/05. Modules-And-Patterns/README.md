@@ -1,4 +1,6 @@
   <body class="logged_in  env-production windows vis-public page-blob">
+  <div id="readme" class="blob instapaper_body">
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1><a id="user-content-modules-and-patterns" class="anchor" href="#modules-and-patterns" aria-hidden="true"><span class="octicon octicon-link"></span></a>Modules and patterns</h1>
    
 <h1></h1>
 
