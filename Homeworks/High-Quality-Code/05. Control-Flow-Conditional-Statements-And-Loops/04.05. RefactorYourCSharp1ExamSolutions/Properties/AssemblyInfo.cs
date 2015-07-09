@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("04. RefactorYourCSharp1ExamSolutions")]
+[assembly: AssemblyTitle("04.05. RefactorYourCSharp1ExamSolutions")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("04. RefactorYourCSharp1ExamSolutions")]
+[assembly: AssemblyProduct("04.05. RefactorYourCSharp1ExamSolutions")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("356eb4cb-0c8d-499f-a175-119d5a1b0fd9")]
+[assembly: Guid("7e8fa3c1-5591-47bd-8c40-b15c81d89493")]
 
 // Version information for an assembly consists of the following four values:
 //
