@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{38424438-040E-40D8-B008-E125833A5913}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{6B294DDB-D16C-4C87-ABE6-6AB2F7AFEC87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{917D565B-265E-40B5-8897-11FB6BE4EF70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38424438-040E-40D8-B008-E125833A5913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38424438-040E-40D8-B008-E125833A5913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38424438-040E-40D8-B008-E125833A5913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38424438-040E-40D8-B008-E125833A5913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B294DDB-D16C-4C87-ABE6-6AB2F7AFEC87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B294DDB-D16C-4C87-ABE6-6AB2F7AFEC87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B294DDB-D16C-4C87-ABE6-6AB2F7AFEC87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B294DDB-D16C-4C87-ABE6-6AB2F7AFEC87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{917D565B-265E-40B5-8897-11FB6BE4EF70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{917D565B-265E-40B5-8897-11FB6BE4EF70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{917D565B-265E-40B5-8897-11FB6BE4EF70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{917D565B-265E-40B5-8897-11FB6BE4EF70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
