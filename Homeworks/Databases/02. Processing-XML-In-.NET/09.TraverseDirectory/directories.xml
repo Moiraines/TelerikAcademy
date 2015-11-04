@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Desktop>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\AC3Filter">
+        <file name="AC3Filter Config" ext=".lnk" />
+        <file name="Clear filter cache" ext=".lnk" />
+        <file name="Documentation" ext=".url" />
+        <file name="Home" ext=".url" />
+        <file name="License" ext=".lnk" />
+        <file name="Readme" ext=".lnk" />
+        <file name="Reset to defaults" ext=".lnk" />
+        <file name="Restore default presets" ext=".lnk" />
+        <file name="SPDIF test (32bit)" ext=".lnk" />
+        <file name="SPDIF test (64bit)" ext=".lnk" />
+        <file name="Uninstall AC3Filter" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessibility">
+        <file name="Desktop" ext=".ini" />
+        <file name="Speech Recognition" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories">
+        <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\System Tools">
+            <file name="Character Map" ext=".lnk" />
+            <file name="desktop" ext=".ini" />
+        </dir>
+        <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Tablet PC">
+            <file name="Desktop" ext=".ini" />
+            <file name="Windows Journal" ext=".lnk" />
+        </dir>
+        <file name="desktop" ext=".ini" />
+        <file name="Math Input Panel" ext=".lnk" />
+        <file name="Paint" ext=".lnk" />
+        <file name="Remote Desktop Connection" ext=".lnk" />
+        <file name="Snipping Tool" ext=".lnk" />
+        <file name="Steps Recorder" ext=".lnk" />
+        <file name="Sticky Notes" ext=".lnk" />
+        <file name="Windows Fax and Scan" ext=".lnk" />
+        <file name="Windows Media Player" ext=".lnk" />
+        <file name="Wordpad" ext=".lnk" />
+        <file name="XPS Viewer" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools">
+        <file name="Component Services" ext=".lnk" />
+        <file name="Computer Management" ext=".lnk" />
+        <file name="desktop" ext=".ini" />
+        <file name="dfrgui" ext=".lnk" />
+        <file name="Disk Cleanup" ext=".lnk" />
+        <file name="Event Viewer" ext=".lnk" />
+        <file name="iSCSI Initiator" ext=".lnk" />
+        <file name="Memory Diagnostics Tool" ext=".lnk" />
+        <file name="ODBC Data Sources (32-bit)" ext=".lnk" />
+        <file name="ODBC Data Sources (64-bit)" ext=".lnk" />
+        <file name="Performance Monitor" ext=".lnk" />
+        <file name="Print Management" ext=".lnk" />
+        <file name="Resource Monitor" ext=".lnk" />
+        <file name="Security Configuration Management" ext=".lnk" />
+        <file name="services" ext=".lnk" />
+        <file name="System Configuration" ext=".lnk" />
+        <file name="System Information" ext=".lnk" />
+        <file name="Task Scheduler" ext=".lnk" />
+        <file name="Windows Firewall with Advanced Security" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\DAEMON Tools Lite">
+        <file name="DAEMON Tools Lite" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\ffdshow">
+        <file name="Audio decoder configuration" ext=".lnk" />
+        <file name="Homepage" ext=".url" />
+        <file name="Uninstall ffdshow" ext=".lnk" />
+        <file name="VFW configuration" ext=".lnk" />
+        <file name="Video decoder configuration" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Git">
+        <file name="Git Bash" ext=".lnk" />
+        <file name="Git CMD" ext=".lnk" />
+        <file name="Git GUI" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Google Chrome">
+        <file name="Google Chrome" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\IrfanView">
+        <file name="About IrfanView" ext=".lnk" />
+        <file name="Available Languages" ext=".lnk" />
+        <file name="Available PlugIns" ext=".lnk" />
+        <file name="Command line Options" ext=".lnk" />
+        <file name="IrfanView - Thumbnails" ext=".lnk" />
+        <file name="IrfanView 4.40" ext=".lnk" />
+        <file name="IrfanView Help" ext=".lnk" />
+        <file name="What's New" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\JetBrains">
+        <file name="JetBrains WebStorm 10.0.4" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Maintenance">
+        <file name="Desktop" ext=".ini" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\McAfee Security Scan Plus">
+        <file name="McAfee Security Scan Plus" ext=".lnk" />
+        <file name="Uninstall" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Expression">
+        <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Expression\Microsoft Expression Blend SDK">
+            <file name="Expression Blend SDK Documentation" ext=".lnk" />
+        </dir>
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013">
+        <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Office 2013 Tools">
+            <file name="Database Compare 2013" ext=".lnk" />
+            <file name="Office 2013 Language Preferences" ext=".lnk" />
+            <file name="Office 2013 Upload Center" ext=".lnk" />
+            <file name="Skype for Business Recording Manager" ext=".lnk" />
+            <file name="Spreadsheet Compare 2013" ext=".lnk" />
+            <file name="Telemetry Dashboard for Office 2013" ext=".lnk" />
+            <file name="Telemetry Log for Office 2013" ext=".lnk" />
+        </dir>
+        <file name="Access 2013" ext=".lnk" />
+        <file name="desktop" ext=".ini" />
+        <file name="Excel 2013" ext=".lnk" />
+        <file name="OneDrive for Business 2013" ext=".lnk" />
+        <file name="OneNote 2013" ext=".lnk" />
+        <file name="Outlook 2013" ext=".lnk" />
+        <file name="PowerPoint 2013" ext=".lnk" />
+        <file name="Send to OneNote 2013" ext=".lnk" />
+        <file name="Skype for Business 2015" ext=".lnk" />
+        <file name="Word 2013" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft SQL Server 2008">
+        <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft SQL Server 2008\Configuration Tools">
+            <file name="SQL Server Installation Center (64-bit)" ext=".lnk" />
+        </dir>
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft SQL Server 2014">
+        <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft SQL Server 2014\Analysis Services">
+            <file name="Deployment Wizard" ext=".lnk" />
+        </dir>
+        <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft SQL Server 2014\Configuration Tools">
+            <file name="SQL Server 2014 Configuration Manager" ext=".lnk" />
+            <file name="SQL Server 2014 Error and Usage Reporting" ext=".lnk" />
+            <file name="SQL Server 2014 Installation Center (64-bit)" ext=".lnk" />
+            <file name="SQL Server 2014 Reporting Services Configuration Manager" ext=".lnk" />
+        </dir>
+        <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft SQL Server 2014\Data Quality Services">
+            <file name="SQL Server 2014 Data Quality Client" ext=".lnk" />
+            <file name="SQL Server 2014 Data Quality Server Installer" ext=".lnk" />
+        </dir>
+        <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft SQL Server 2014\Documentation &amp; Community">
+            <file name="Community Projects &amp; Samples" ext=".lnk" />
+            <file name="Manage Help Settings" ext=".lnk" />
+            <file name="Resource Center" ext=".lnk" />
+            <file name="SQL Server Documentation" ext=".lnk" />
+        </dir>
+        <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft SQL Server 2014\Integration Services">
+            <file name="SQL Server 2014 Data Profile Viewer" ext=".lnk" />
+            <file name="SQL Server 2014 Deployment Wizard" ext=".lnk" />
+            <file name="SQL Server 2014 Execute Package Utility" ext=".lnk" />
+            <file name="SQL Server 2014 Project Conversion Wizard" ext=".lnk" />
+        </dir>
+        <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft SQL Server 2014\Master Data Services">
+            <file name="SQL Server 2014 Master Data Services Configuration Manager" ext=".lnk" />
+        </dir>
+        <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft SQL Server 2014\Performance Tools">
+            <file name="SQL Server 2014 Database Engine Tuning Advisor" ext=".lnk" />
+            <file name="SQL Server 2014 Profiler" ext=".lnk" />
+        </dir>
+        <file name="Download Microsoft SQL Server Compact" ext=".url" />
+        <file name="SQL Server 2014 Import and Export Data (32-bit)" ext=".lnk" />
+        <file name="SQL Server 2014 Import and Export Data (64-bit)" ext=".lnk" />
+        <file name="SQL Server 2014 Management Studio" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MongoVUE">
+        <file name="MongoVUE 1.6.9" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Nero">
+        <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Nero\Nero 2015">
+            <file name="Nero 2015" ext=".lnk" />
+            <file name="Nero Burning ROM" ext=".lnk" />
+        </dir>
+        <file name="Nero ControlCenter" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Notepad++">
+        <file name="Notepad++" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Sandcastle Help File Builder">
+        <file name="Custom Web Code Providers Help" ext=".lnk" />
+        <file name="HTML to MAML Converter Help" ext=".lnk" />
+        <file name="Sandcastle Help File Builder GUI" ext=".lnk" />
+        <file name="Sandcastle Help File Builder Help" ext=".lnk" />
+        <file name="Sandcastle Help File Builder" ext=".lnk" />
+        <file name="Sandcastle MAML Guide" ext=".lnk" />
+        <file name="Sandcastle Tools Help" ext=".lnk" />
+        <file name="Sandcastle XML Comments Guide" ext=".lnk" />
+        <file name="SHFB Project Launcher" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Skype">
+        <file name="Skype" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp">
+        <file name="desktop" ext=".ini" />
+        <file name="McAfee Security Scan Plus" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\System Tools">
+        <file name="Default Programs" ext=".lnk" />
+        <file name="Desktop" ext=".ini" />
+        <file name="Task Manager" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Tablet PC" />
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Total Commander">
+        <file name="Total Commander 64 bit" ext=".lnk" />
+        <file name="Total Commander Help" ext=".lnk" />
+        <file name="Uninstall or Repair Total Commander" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Unity 5.0.2f1 (64-bit)">
+        <file name="Report a Problem with Unity" ext=".lnk" />
+        <file name="Unity Documentation" ext=".lnk" />
+        <file name="Unity" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2015">
+        <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2015\Visual Studio Tools">
+            <file name="Debuggable Package Manager" ext=".lnk" />
+            <file name="Developer Command Prompt for VS2015" ext=".lnk" />
+            <file name="MSBuild Command Prompt for VS2015" ext=".lnk" />
+            <file name="Remote Debugger Folder" ext=".lnk" />
+        </dir>
+        <file name="Microsoft Feedback Client 2015" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Winamp">
+        <file name="Uninstall Winamp" ext=".lnk" />
+        <file name="What's New" ext=".lnk" />
+        <file name="Winamp (Safe Mode)" ext=".lnk" />
+        <file name="Winamp" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\WinRAR">
+        <file name="Console RAR manual" ext=".lnk" />
+        <file name="What is new in the latest version" ext=".lnk" />
+        <file name="WinRAR help" ext=".lnk" />
+        <file name="WinRAR" ext=".lnk" />
+    </dir>
+    <file name="Acrobat Reader DC" ext=".lnk" />
+    <file name="Blend for Visual Studio 2015" ext=".lnk" />
+    <file name="desktop" ext=".ini" />
+    <file name="Desktop" ext=".lnk" />
+    <file name="Devices Flow" ext=".lnk" />
+    <file name="Immersive Control Panel" ext=".lnk" />
+    <file name="Microsoft Test Manager 2015" ext=".lnk" />
+    <file name="MiracastView" ext=".lnk" />
+    <file name="Mozilla Firefox" ext=".lnk" />
+    <file name="paint.net" ext=".lnk" />
+    <file name="PrintDialog" ext=".lnk" />
+    <file name="Search" ext=".lnk" />
+    <file name="Visual Studio 2015" ext=".lnk" />
+</Desktop>
